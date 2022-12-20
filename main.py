@@ -1,4 +1,4 @@
-from Photoshop import Photoshop
+from Drawing import Drawing as photoshop
 from PIL import Image as im
 import numpy as np
 
