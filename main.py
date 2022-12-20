@@ -1,4 +1,6 @@
-from Phtoshop import phtoshop
+from Photoshop import Photoshop
+from PIL import Image as im
+import numpy as np
 
 A= photoshop(np.ones((300, 300, 3), dtype= np.uint8)*255)
 

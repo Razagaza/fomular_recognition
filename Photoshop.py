@@ -1,7 +1,7 @@
 from PIL import Image as im
 import numpy as np
 
-class photoshop:
+class Photoshop:
     def __init__(self, imag):
         self.imag= imag
         print(imag.shape)
